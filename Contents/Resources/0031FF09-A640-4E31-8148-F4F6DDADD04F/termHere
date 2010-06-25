@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+
+
+/usr/bin/osascript <<-EOF
+
+tell application "Terminal"
+
+	activate
+	do script "cd `dirname ${CODA_FILEPATH}`"
+
+end tell
+
+EOF
+
