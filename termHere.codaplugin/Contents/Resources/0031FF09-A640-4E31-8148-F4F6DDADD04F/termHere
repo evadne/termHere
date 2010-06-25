@@ -2,6 +2,20 @@
 
 
 
+
+
+if [ -z "$CODA_FILEPATH" ]
+then
+
+	osascript -e "beep"
+	exit
+
+fi
+
+
+
+
+
 /usr/bin/osascript <<-EOF
 
 tell application "Terminal"
