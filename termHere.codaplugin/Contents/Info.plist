@@ -30,11 +30,11 @@
 			<key>keyEquivalent</key>
 			<string>$@o</string>
 			<key>keyEquivalentConflict</key>
-			<true/>
+			<false/>
 			<key>name</key>
 			<string>Open in Terminal</string>
 			<key>output</key>
-			<string>afterSelectedText</string>
+			<string>discard</string>
 			<key>preprocess</key>
 			<string>none</string>
 			<key>script</key>
