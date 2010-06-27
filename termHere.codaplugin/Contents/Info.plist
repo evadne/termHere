@@ -30,7 +30,7 @@
 			<key>keyEquivalent</key>
 			<string>$@o</string>
 			<key>keyEquivalentConflict</key>
-			<false/>
+			<true/>
 			<key>name</key>
 			<string>Open in Terminal</string>
 			<key>output</key>
@@ -43,6 +43,20 @@
 			<true/>
 			<key>uuid</key>
 			<string>0031FF09-A640-4E31-8148-F4F6DDADD04F</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>keyEquivalent</key>
+			<string>$~@o</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Open in GitX</string>
+			<key>script</key>
+			<string>gitXHere</string>
+			<key>uuid</key>
+			<string>8B9F22CB-900F-4416-9B44-069E29170113</string>
 		</dict>
 	</array>
 </dict>

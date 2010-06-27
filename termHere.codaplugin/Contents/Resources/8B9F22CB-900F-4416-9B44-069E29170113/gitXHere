@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+
+
+
+
+
+if [ -z "$CODA_FILEPATH" ]
+then
+
+	osascript -e "beep"
+	exit
+
+fi
+
+
+
+
+
+cd `dirname $CODA_FILEPATH`;
+/usr/local/bin/gitx;
